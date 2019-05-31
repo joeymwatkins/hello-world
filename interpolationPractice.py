@@ -20,3 +20,5 @@ xnew = np.linspace(0, 10, num=41, endpoint=True)
 py.plot(x, y, 'o', xnew, f(xnew), '-', xnew, f2(xnew), '--')
 py.legend(['data', 'linear', 'cubic'], loc='best')
 py.show()
+
+# change a comment
